@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">PoliticGame</string>
+    <string name="view_leader_board">View Leaderboard</string>
+    <string name="stamp_game_yes">Yes</string>
+    <string name="stamp_game_char_image">Character Image</string>
+    <string name="speech_successful_instruction">Congrats! You entered the correct word for the prompt :)</string>
+    <string name="speech_failure_instruction">Sorry, the word you chose is not relevant to the prompt :(</string>
+    <string name="speech_result_instruction"> PoliticGame Result Instructions:</string>
+    <string name="speech_compare"> Submit</string>
+    <string name="speech_user_input"> The related word is ...</string>
+    <string name="the_baby_game">The Baby Game</string>
+    <string name="speech_game_title">The Speech Game</string>
+    <string name="the_stamping_game">The Stamping Game</string>
+    <string name="baby_game_instruction_body">Keep the baby happy, its happiness is your score! \n\n Kiss = Tap \n\n Tickle = Tap left and right repeatedly \n\n Rub the baby = Slide back and fourth vertically / horizontally</string>
+    <string name="speech_instruction_body">In this game you will be giving a speech to the public given a topic. What you need to do is to select the related word from the four possible choices and type it as an input</string>
+    <string name="stamp_instruction_body">In this game you are sorting out the policies of your party. As the campaign leader, you decide what your party should fight for. However, the general populace will not always be happy with what you decide on, so use your judgement to decide what may be best for the country.</string>
+    <string name="open_the_game">Open The Game!</string>
+    <string name="stamp_game_no">No</string>
+    <string name="stamp_game_proposal">proposals left</string>
+    <string name="stamp_game_rating">your current rating</string>
+    <string name="stamp_game_proposal_left">0</string>
+    <string name="stamp_game_rating_score">50%</string>
+    <string name="NPC_image">npcImage</string>
+    <string name="NPC_Prompt">npcPrompt</string>
+    <string name="next_game">Next</string>
+    <string name="prompt_email">Email or Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short"> Sign In</string>
+    <string name="invalid_password">Invalid Password.We expected you to enter more than 4 characters for password</string>
+    <string name="invalid_username">Invalid Username or email.Please make sure it is not empty or matches email format.</string>
+    <string name="duplicate_user">User name already exists,please select another user name</string>
+    <string name="login_failed">Invalid Password</string>
+    <string name="register_failed">Unable to connect to the database.Registration Failed</string>
+    <string name="user_not_found">User Not Found in the database. Please register!</string>
+    <string name="welcome">Welcome!  </string>
+    <string name="registerInfo">Successfully register into database!  </string>
+    <string name="speechRating">Your current rating: 0%</string>
+    <string name="StampGameWon">Congratulations! You have made reasonable choices with the given proposals. Your charisma made you one of the most popular candidates in this election.</string>
+    <string name="stamp_game_lost_leaderboard">Game Summary</string>
+    <string name="stamp_game_happy_face">happy face</string>
+    <string name="stamp_game_lost_message">Unfortunately, you underwhelming performance during this stage made you rated as one of the worst candidates in this election</string>
+    <string name="sad_face_for_stamp_game">sad face for stamp game</string>
+    <string name="logged_in_activity_create_char">Create Character</string>
+    <string name="logged_in_activity_select_char">Select Character</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_register">Save and Continue</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signup">New User? Create an Account!</string>
+    <string name="resume">Resume</string>
+    <string name="pause_menu_image">pause_menu_image</string>
+    <string name="load_screen">change character</string>
+    <string name="summary">this is the summary for all 3 game scores</string>
+    <string name="summary_main_menu">Save and Quit</string>
+    <string name="summary_quit">Quit without Saving</string>
+    <string name ="game_mode_title">Select a Game Mode</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="login">Login</string>
+    <string name="pos_verb_campaign">campaign with the best interests of</string>
+    <string name="pos_verb_aid">send aid to</string>
+    <string name="pos_verb_donate">donate money to charities that work with</string>
+    <string name="pos_verb_gift">gift a bouquet of flowers to</string>
+    <string name="neg_verb_sendPolice">send a police squad to detain and imprison</string>
+    <string name="neg_verb_punch">punch the daylights out of</string>
+    <string name="neg_verb_launchNuke">launch nukes against</string>
+    <string name="neg_verb_sendArmy">send an army against</string>
+    <string name="neg_verb_launchInvest">launch an investigation against</string>
+    <string name="neg_verb_laugh">personally find and laugh at</string>
+    <string name="pos_NotC_Noun_Gandhi">Gandhi, a recently popular peace advocate who campaigns in India</string>
+    <string name="pos_NotC_Noun_JohnOlive">the popular late-night TV show host John Olive Oil</string>
+    <string name="pos_NotC_Noun_BillRye">Bill Rye, a once popular figure in science who recently published a paper on the benefits of foot rubs</string>
+    <string name="pos_NotC_Noun_ToeKnee">Toe-Knee, a rising star in the genre of Jazz, who recently released his hit album "CS Blues"</string>
+    <string name="pos_NotC_Noun_Jacki">Jacki, a citizen who has been wrongfully imprisoned in the country of Canada for not holding the door for the boy behind him</string>
+    <string name="neg_NotC_Noun_leaderKorea">the leader of North Coreeah, who is planning a nuclear strike</string>
+    <string name="neg_NotC_Noun_Colin">Colin, a medical practitioner found to have cheated on his medical exams after a related illegal nose smuggling ring was busted</string>
+    <string name="neg_NotC_Noun_Kavin">Kavin, a phantom thief who masterminded the theft all the laptop chargers, but not the laptops, at the University of Toronto last Fall</string>
+    <string name="pos_C_Noun_Puppy">puppies, specifically the ones at the Downtown Toronto Dog Shelter</string>
+    <string name="pos_C_Noun_Peacock">Boundless Peacocks, the very last of their species</string>
+    <string name="pos_C_Noun_students">sad computer science students at the University of Toronto</string>
+    <string name="neg_C_Noun_sealClubber">seal clubbers, who have hunted and killed countless baby seals</string>
+    <string name="neg_C_Noun_thieves">thieves, who have stolen goods from innocent students</string>
+    <string name="promptStarter_1">Good afternoon, based on our campaign researchers\' speculation, would you like to</string>
+    <string name="promptStarter_2">This just in, based on the rumors from our excited supporters, is it true that you would</string>
+    <string name="promptStarter_3">Greetings, based on the meeting result last week, are you going to</string>
+    <string name="promptStarter_4">Nice to meet you. I am one of your many campaign assistants and was wondering if you would like to</string>
+
+    <string name= "Q1">The country needs more budget to spend on improving public education and there is discussion for raising the money</string>
+    <string name="Q1A">taxes</string>
+    <string name="Q1B">environment</string>
+    <string name="Q1C">religion</string>
+    <string name="Q1D">military</string>
+    <string name="A1">taxes</string>
+
+    <string name="Q2">Many young people in the country are struggling to pay back student loans and there is discussion for the government to relieve this debt</string>
+    <string name="Q2A">immigration</string>
+    <string name="Q2B">healthCare</string>
+    <string name="Q2C">corporations</string>
+    <string name="Q2D">taxes</string>
+    <string name="A2">taxes</string>
+
+    <string name="Q3">Climate change is rising threat to the planet and there is discussion to expand on the country\'s renewable energy sources</string>
+    <string name="Q3A">energy</string>
+    <string name="Q3B">economy</string>
+    <string name="Q3C">unions</string>
+    <string name="Q3D">trade</string>
+    <string name="A3">energy</string>
+
+    <string name="Q4" >The homelessness rate in the country is rising each year and there is discussion to introduce a universal basic income</string>
+    <string name="Q4A">immigration</string>
+    <string name="Q4B">poverty</string>
+    <string name="Q4C">internet</string>
+    <string name="Q4D">security</string>
+    <string name="A4">poverty</string>
+
+    <string name="Q5">Surveys show that many citizens do not like their governors on the provincial and municipal level and there is discussion to introduce a term limit"</string>
+    <string name="Q5A">voting</string>
+    <string name="Q5B">education</string>
+    <string name="Q5C">taxes</string>
+    <string name="Q5D">medication</string>
+    <string name="A5">voting</string>
+
+    <string name="Q6">A recent trend shows that many corporations are outsourcing jobs to other parts of the world and there is discussion so keep jobs domestic</string>
+    <string name="Q6A">diversity</string>
+    <string name="Q6B">religion</string>
+    <string name="Q6C">healthCare</string>
+    <string name="Q6D">economy</string>
+    <string name="A6">economy</string>
+
+    <string name="Q7">Genetically modified foods is a controversial topic and there is discussion to heavily regulate them or ban them</string>
+    <string name="Q7A">energy</string>
+    <string name="Q7B">corporations</string>
+    <string name="Q7C">agriculture</string>
+    <string name="Q7D">voting</string>
+    <string name="A7">agriculture</string>
+
+    <string name="Q8"> New strains of diseases are on the rise and there is discussion for the government to introduce mandatory vaccinations</string>
+    <string name="Q8A">trade</string>
+    <string name="Q8B">military</string>
+    <string name="Q8C">education</string>
+    <string name="Q8D">healthCare</string>
+    <string name="A8">healthCare</string>
+
+    <string name="Q9">Studies have shown that a 4 day work week increases productivity and there is discussion for this change to be implemented</string>
+    <string name="Q9A">security</string>
+    <string name="Q9B">corporations</string>
+    <string name="Q9C">immigration</string>
+    <string name="Q9D">poverty</string>
+    <string name="A9">corporations</string>
+
+    <string name="Q10">Older citizens are struggling to retire at reasonable age and there is discussion to increase senior assissance</string>
+    <string name="Q10A">pension</string>
+    <string name="Q10B">internet</string>
+    <string name="Q10C">military</string>
+    <string name="Q10D">diversity</string>
+    <string name="A10">pension</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.politicgame">
+
+    <application
+        android:name=".Application.PoliticGameApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BlueTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".GameMode.SummaryActivity"></activity>
+        <activity android:name=".Games.SpeechGame.SpeechInstructionActivity" />
+        <activity android:name=".Games.StampGame.StampActivityWon" />
+        <activity android:name=".Games.StampGame.StampActivityLost" />
+        <activity android:name=".Games.SpeechGame.FailureSpeechResult" />
+        <activity android:name=".Games.SpeechGame.SuccessSpeechResult" />
+        <activity android:name=".Games.SpeechGame.SpeechResult" />
+        <activity
+            android:name=".Leaderboard.LeaderBoardActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Games.StampGame.StampActivity" />
+        <activity android:name=".Games.StampGame.StampInstructionActivity" />
+        <activity android:name=".Games.SpeechGame.SpeechActivity" />
+        <activity android:name=".Games.BabyGame.BabyActivity" />
+        <activity android:name=".Games.BabyGame.BabyGameInstruction" />
+        <activity
+            android:name=".UserActivity.UserInterface.LoginActivity"
+            android:theme="@style/PopUp" />
+        <activity
+            android:name=".UserActivity.UserInterface.RegistrationActivity"
+            android:theme="@style/PopUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pausing.PauseActivity"
+            android:theme="@style/PopUp"/>
+        <activity android:name=".SettingsActivity"
+            android:theme="@style/PopUp"/>
+        <activity android:name=".CharacterSelect.SelectCharacterActivity" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".PopUpActivity"/>
+        <activity android:name=".CharacterSelect.LoadCharacterActivity"
+            android:theme="@style/PopUp"/>
+        <activity android:name=".GameMode.GameModeActivity" />
+        <activity android:name=".GameMode.SingleEndActivity" />
+        <activity android:name=".GameMode.ArcadeActivity" />
+    </application>
+
+</manifest>

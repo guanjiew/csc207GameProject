@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backColor">
+
+    <TextView
+        android:id="@+id/game_mode_title"
+        style="@style/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/game_mode_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ArcadeMode"
+        style="@style/Button"
+        android:layout_width="224dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:text="Election Mode"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode_title" />
+
+    <Button
+        android:id="@+id/BabyGameMode"
+        style="@style/Button"
+        android:layout_width="224dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:text="Baby Game"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ArcadeMode" />
+
+    <Button
+        android:id="@+id/SpeechGameMode"
+        style="@style/Button"
+        android:layout_width="224dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="20dp"
+        android:text="Speech Game"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BabyGameMode" />
+
+    <Button
+        android:id="@+id/StampGameMode"
+        style="@style/Button"
+        android:layout_width="224dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="20dp"
+        android:text="Stamp Game"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SpeechGameMode" />
+
+    <Button
+        android:id="@+id/back_game_mode"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StampGameMode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
